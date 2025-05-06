@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import TodoInput from "./components/TodoInput/TodoInput";
 import TodoList from "./components/TodoList/TodoList";
 import { v4 as uuidv4 } from "uuid";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     const [todos,setTodos]=useState([
@@ -59,10 +60,17 @@ function App() {
 
     return (
         <>
-            <div>Hellow</div>
-            <Header/>
-            <TodoInput onSubmitHandler={onFormSubmit}/>
-            <TodoList listOfTodos={todos} onDeleteTodo={onDeleteTodoById} onCheckBox={handleCheckbox} onEditTodo={onEditTodo}/>
+            <div className="min-h-screen h-full bg-gradient-to-br from-blue-600 via-white to-indigo-400 ">
+                <Header />
+                <TodoInput onSubmitHandler={onFormSubmit} />
+                <TodoList
+                    listOfTodos={todos}
+                    onDeleteTodo={onDeleteTodoById}
+                    onCheckBox={handleCheckbox}
+                    onEditTodo={onEditTodo}
+                />
+                <Footer />
+            </div>
         </>
     );
 }
