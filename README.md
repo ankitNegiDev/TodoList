@@ -79,4 +79,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-Made with 💙 by [Your Name](https://github.com/your-username).
+Made with 💙 by [Ankit Negi](https://github.com/ankitNegiDev).
