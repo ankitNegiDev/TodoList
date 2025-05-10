@@ -1,5 +1,6 @@
 import React from "react";
 
+// Footer component with tailwind css..
 function Footer() {
     return (
         <footer className="bg-gradient-to-br from-blue-500 via-indigo-500 to-blue-800 text-white pt-0 text-center fixed bottom-0 w-full">

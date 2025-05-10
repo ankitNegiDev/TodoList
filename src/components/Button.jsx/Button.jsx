@@ -1,19 +1,22 @@
-// function Button({text,type,handelOnclick}){
+// basic button component that focus only on logic..
+/*
+function Button({text,type,handelOnclick}){
 
-//     return(
-//         <>
-//             <button
-//                 type={type}
-//                 onClick={handelOnclick}
-//             >
-//                 {text}
-//             </button>
-//         </>
-//     );
-// }
-// export default Button;
+    return(
+        <>
+            <button
+                type={type}
+                onClick={handelOnclick}
+            >
+                {text}
+            </button>
+        </>
+    );
+}
+export default Button;
+*/
 
-
+// Button component with proper style..
 function Button({ text, type, handelOnclick }) {
     return (
         <button

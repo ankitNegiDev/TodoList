@@ -1,12 +1,14 @@
-// function Header(){
+// header component without csss..
+/*function Header(){
 
-//     return (
-//         <>
-//             <h1>Header</h1>
-//         </>
-//     );
-// }
-// export default Header;
+    return (
+        <>
+            <h1>Header</h1>
+        </>
+    );
+}
+export default Header;
+*/
 
 function Header() {
     return (
